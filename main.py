@@ -3,7 +3,7 @@ def verify_denum(denum):
         print("\n#ERROR# Impossible de mettre une valeur égale ou inférieure à 0\n")
         return False
 
-    elif denum.is_integer():
+    if denum.is_integer():
         return True
 
     return False
